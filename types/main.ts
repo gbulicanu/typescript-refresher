@@ -1,3 +1,5 @@
-let count = 5;
+let a;
 
-count = "a";
+a = 1;
+a = true;
+a = "a";
