@@ -1,5 +1,8 @@
-let drawPoint = (x, y, a, b, c, d, e) => {
+let drawPoint = (point) => {
     // ...
-}
+};
 
-drawPoint(1, 2);
+drawPoint({
+    x: 1,
+    y: 2
+});

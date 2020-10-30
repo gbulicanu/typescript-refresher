@@ -1,4 +1,7 @@
-var drawPoint = function (x, y, a, b, c, d, e) {
+var drawPoint = function (point) {
     // ...
 };
-drawPoint(1, 2);
+drawPoint({
+    x: 1,
+    y: 2
+});
