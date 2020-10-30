@@ -2,5 +2,6 @@ var drawPoint = function (point) {
     // ...
 };
 drawPoint({
-    name: "Gheorghe"
+    x: 1,
+    y: 0
 });

@@ -1,7 +1,8 @@
-let drawPoint = (point) => {
+let drawPoint = (point: { x: number, y: number }) => {
     // ...
 };
 
 drawPoint({
-    name: "Gheorghe",
+    x: 1,
+    y: 0
 });
