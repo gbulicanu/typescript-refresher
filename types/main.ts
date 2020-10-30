@@ -1,4 +1,4 @@
-let a;
+let a: number;
 
 a = 1;
 a = true;
