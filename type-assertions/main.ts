@@ -1,6 +1,6 @@
 let message;
 message = "abc";
 
-let endsWithC = message.endsWith("c");
+let endsWithC = (<string>message).endsWith("c");
 
 console.log(endsWithC);
