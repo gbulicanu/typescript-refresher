@@ -1,9 +1,10 @@
 class Point {
     x: number;
     y: number;
-    draw() {
+
+    draw(): void {
         // ...
-    };
+    }
 
     getDistance(another: Point) {
         // ...
