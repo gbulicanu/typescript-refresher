@@ -5,11 +5,6 @@ class Point {
     draw(): void {
         console.log("X: " + this.x + ", Y: " + this.y);
     }
-
-    getDistance(another: Point): number {
-        // ...
-        return 0;
-    }
 }
 
 let point = new Point();
