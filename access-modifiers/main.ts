@@ -1,5 +1,5 @@
 class Point {
-    constructor(private x?: number, private y?: number){
+    constructor(private x?: number, private y?: number) {
     }
 
     draw(): void {
