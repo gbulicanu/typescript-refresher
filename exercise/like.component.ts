@@ -1,9 +1,17 @@
 export class LikeComponent {
-    constructor(public likesCount?: number, public isSelected?: boolean) {
+    constructor(private _likesCount?: number, private _isSelected?: boolean) {
+    }
+
+    get likesCount(): number {
+        return this._likesCount;
+    }
+
+    get isSelected(): boolean {
+        return this._isSelected;
     }
 
     onClick(): void {
-        this.likesCount += (this.isSelected) ? -1 : 1;
-        this.isSelected = !this.isSelected;
+        this._likesCount += (this._isSelected) ? -1 : 1;
+        this._isSelected = !this._isSelected;
     }
 }
