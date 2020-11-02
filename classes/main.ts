@@ -6,7 +6,8 @@ class Point {
         // ...
     }
 
-    getDistance(another: Point) {
+    getDistance(another: Point): number {
         // ...
+        return 0;
     }
 }
