@@ -8,5 +8,5 @@ let drawPoint = (point: Point) => {
 
 drawPoint({
     x: 1,
-    y: 0
+    y: 2
 });
