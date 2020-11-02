@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var like_component_1 = require("./like.component");
 var currentLikeCount = 10;
 var component = new like_component_1.LikeComponent(currentLikeCount, true);
